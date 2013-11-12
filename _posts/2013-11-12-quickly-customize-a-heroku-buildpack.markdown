@@ -17,5 +17,5 @@ after a while digging around online, this was the simplest thing to get the job 
 4. Tell Heroku to use your buildpack
 
 {% highlight bash %}
-  heroku config BUILDPACK_URL=https://github.com/padwasabimasala/heroku-buildpack-nodejs-with-makefile-support
+  heroku config:set BUILDPACK_URL=https://github.com/padwasabimasala/heroku-buildpack-nodejs-with-makefile-support
 {% endhighlight %}
