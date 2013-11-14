@@ -6,12 +6,11 @@ categories: cleancode software
 ---
 
 At work I lead a book club called Spaghetti Anonymous. It's really more like a
-video club. We've been watching episodes of (Uncle Bob's Clean Code
-series)[http://cleancoders.com/] and having discussions about the content.
+video club. We've been watching episodes of [Uncle Bob's Clean Code series](http://cleancoders.com/)
+and having discussions about the content.
 
-Today we watched (Episode
-VIII)[http://cleancoders.com/codecast/clean-code-episode-8/show] which is an
-overview of (SOLID)[http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)]
+Today we watched [Episode VIII](http://cleancoders.com/codecast/clean-code-episode-8/show) which is an
+overview of [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
 design.
 
 The video covers
