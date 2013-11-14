@@ -10,7 +10,7 @@ video club. We've been watching episodes of [Uncle Bob's Clean Code series](http
 and having discussions about the content.
 
 Today we watched [Episode VIII](http://cleancoders.com/codecast/clean-code-episode-8/show) which is an
-overview of [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+overview of [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
 design.
 
 The video covers
