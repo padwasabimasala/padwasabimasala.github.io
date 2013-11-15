@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Clean Code Episode Eight"
-date:   2013-11-12 13:22:58
+date:   2013-11-14 13:22:58
 categories: cleancode software
 ---
 
