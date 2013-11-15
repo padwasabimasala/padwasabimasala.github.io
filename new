@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+def template(opts={})
+  title = opts[:title]
+  time = opts[:time] || Time.new
+  fmt_date = time.strftime("%Y-%m-%d %H:%M:%S")
+
+"---
+layout: post
+title: \"#{title}\"
+date: #{fmt_date}
+categories:
+---
+"
+end
+
+def filename(title)
+  date = Time.new.strftime('%Y-%m-%d')
+  fmt_title = title.split(' ').map{|w| w.downcase }.join('-').gsub(',','')
+  [date, fmt_title].join('-') + '.markdown'
+end
+
+
+title = ARGV.join ' '
+path = File.join('_posts', filename(title))
+File.open(path, 'w') do |file|
+  file.puts(template title: title)
+end
+puts path
