@@ -10,9 +10,7 @@ vim config. So I decidd to find a way to make it a bit easier. I already have
 the bash aliases "rcedit" and "rcreload", so I decided to add them to vim like
 so.
 
-```
-" My .vimrc
-
+```vim
 command! RcEdit :new $MYVIMRC
 command! RcReload :so $MYVIMRC
 ```
@@ -22,12 +20,12 @@ prefer to map these to commands using a leader key, or even a function key, but
 prefer them to be commands because that is how I am used to calling their more
 verbose alternatives.
 
-Here's a few things to consider.
+### Considerations
 
 When defining new commands they must begin with a Capital letter. The following
 would be invalid
 
-```
+```vim
 command! rcEdit :new $MYVIMRC
 ```
 
@@ -36,7 +34,7 @@ error if the command already exists.
 
 For example if the command were defined like this:
 
-```
+```vim
 command RcEdit :new $MYVIMRC
 command RcReload :so $MYVIMRC
 ```
