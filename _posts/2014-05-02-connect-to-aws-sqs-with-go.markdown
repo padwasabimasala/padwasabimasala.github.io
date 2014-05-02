@@ -52,3 +52,8 @@ func main() {
   fmt.Println(resp)
 }
 ```
+
+Save the above code to a file "sqs-demo.go", compile with `go build` and run it.
+
+
+--Happy Hacking
